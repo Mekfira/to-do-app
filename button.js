@@ -26,7 +26,7 @@ function attachButton(li) {
   
       boxWidth = 36;
       boxHeight = 24;
-  
+      boxHeight=25;
     const deleteButton = document.createElementNS(xmlns, "svg");
     deleteButton.setAttributeNS(null, "viewBox", "0 0" + " " + boxWidth + " "+ boxHeight);
     deleteButton.setAttributeNS(null, "width", boxWidth);
